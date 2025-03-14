@@ -36,3 +36,21 @@ This project automates the login process to a captive portal using Python. The m
    ```bash
    git clone https://github.com/yourusername/Captive-Portal-Auto-Login.git
    cd Captive-Portal-Auto-Login
+
+2. **Install Dependencies:**
+   ```bash
+   pip install selenium requests
+
+3. **Download Chrome WebDriver:**
+   Make sure you have the Chrome WebDriver matching your version of Chrome. Download it from [here](https://sites.google.com/a/chromium.org/chromedriver/) and ensure it’s accessible in your PATH.
+
+## Configuration
+
+Edit the script to update your captive portal details:
+
+- **Portal URL:** Update the `portal_url` variable with your captive portal address. you can find the address when the captive portal opens.
+- **Credentials:** Update the `username` and `password` variables with your login details.
+- **Customization:** Adjust the time intervals (`time.sleep`) if needed to match your network's response time.
+
+
+
